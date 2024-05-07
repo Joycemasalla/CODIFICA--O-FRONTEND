@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+}
+div {
+    border:3px solid purple;
+    margin:15px;
+    flex-wrap: wrap;
+    display: flex;
+    height: 70px;
+}
+body{
+    background-color: rgb(193, 177, 207);
+}
+
+p{
+    display: flex;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue; 
+}
+
+.dois{
+    justify-content: center;
+}
+
+.tres{
+    justify-content: end;
+}
+
+.quatro{
+    justify-content: space-between;
+}
+
+
+
+
+#um{
+    background-color: red;
+}
+#dois{
+    background-color: blue;
+}
+#tres{
+    background-color: green;
+}
+#quatro{
+    background-color: chocolate;
+}
+#cinco{
+    background-color: orange;
+}
+#seis{
+    background-color: darkviolet;
+}
+#sete{
+    background-color: purple;
+}
+#oito{
+    background-color: burlywood;
+}
+#nove{
+    background-color:crimson;
+}
+#dez{
+    background-color: brown;   
+}
+#onze{
+    background-color: gray;
+}
+#doze{
+    background-color: darkslategrey;
+}
