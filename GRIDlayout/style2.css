@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row; /*Linhas com mesmo tamanho*/
+  grid-template-areas: 
+        "Header Header Header Header" /*Vai ocupar 4 dessas colunas*/
+        "main main . sidebar" /*Vai ocupar duas colunas. O "." quer dizer q é vazio*/
+        "footer footer footer footer"; /*Vai ocupar 4 dessas colunas*/
+}
+.Header {
+  grid-area: Header; /*Como se fosse o apelido*/
+}
+.main {
+  grid-area: main;
+}
+.sidebar {
+  grid-area: sidebar;
+}
+.footer {
+  grid-area: footer;
+}
