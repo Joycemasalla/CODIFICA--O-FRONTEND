@@ -1,0 +1,40 @@
+:root{
+    --btWhite: #000;
+    --btGreen-100: #000;
+    --btGreen-200: #000;
+    --btGreen-300: #000;
+ 
+}
+
+.navbar-brand img{
+    width:80px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    /* width: 100%; */
+    height: 100%;
+    /* recorta a imagem dentro do tamanho */
+    object-fit: cover;
+    /* object-position:center; */
+}
+
+.titleSection1{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.titleSection2{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
